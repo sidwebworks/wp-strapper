@@ -1,0 +1,11 @@
+/*
+Theme Name: <%= theme.name %>
+Description: A simple WordPress starter theme.
+Author: <%= theme.author %>
+License: MIT License
+License URI: https://opensource.org/licenses/MIT
+Version: 1.0
+Requires at least: 5.9
+Tested up to: 6.0
+Requires PHP: 8.0
+*/

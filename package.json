@@ -1,0 +1,36 @@
+{
+  "name": "wp-strapper",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "bin": {
+    "wp-strapper": "./bin/main.js"
+  },
+  "main": "./bin/main.js",
+  "scripts": {
+    "dev": "concurrently \"tsc -w\"",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "sidwebworks",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.2",
+    "enquirer": "^2.3.6",
+    "esbuild": "^0.15.5",
+    "eta": "^1.12.3",
+    "figlet": "^1.5.2",
+    "nanospinner": "^1.1.0",
+    "postcss": "^8.4.16",
+    "zors": "^0.1.6"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/figlet": "^1.5.5",
+    "@types/node": "^18.7.13",
+    "concurrently": "^7.3.0",
+    "tsx": "^3.8.2",
+    "typescript": "^4.8.2"
+  }
+}
